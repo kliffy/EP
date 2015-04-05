@@ -4,7 +4,7 @@ lock '3.1.0'
 set :application, 'ep'
 set :repo_url, 'git@github.com:kliffy/EP.git'
 
-set :deploy_to, "/var/www/#{application}"
+set :deploy_to, "/var/www/ep"
 
 set :linked_files, %w{config/database.yml}
 set :linked_dirs, %w{bin log tmp/pids tmp/cache tmp/sockets vendor/bundle public/system}
